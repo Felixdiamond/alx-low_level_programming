@@ -21,7 +21,7 @@ if (ch == 'e')
 }
 if (ch == 'q')
 {
-      	continue;
+	continue;
 }
       putchar(ch);
 }
