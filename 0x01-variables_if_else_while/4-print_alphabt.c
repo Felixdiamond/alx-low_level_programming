@@ -23,7 +23,7 @@ if (ch == 'q')
 {
 	continue;
 }
-      putchar(ch);
+putchar(ch);
 }
 putchar(hehe);
 return (0);
