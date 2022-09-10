@@ -15,7 +15,7 @@ char i;
 char hehe;
 for (i = 'a' ; i <= 'z' ; i++) 
 {
-      strrev(putchar(ch));
+      strrev(putchar(i));
 } 
 putchar(hehe);
 return (0);
