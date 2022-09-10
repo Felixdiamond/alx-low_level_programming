@@ -15,7 +15,7 @@ char i;
 char hehe = '\n';
 for (i = 'z' ; i <= 'a' ; i--) 
 {
-      putchar(ch);
+      putchar(i);
 } 
 putchar(hehe);
 return (0);
