@@ -13,10 +13,10 @@ int main(void)
 {
 char i;
 char hehe = '\n';
-for (i = 'z' ; i >= 'a' ; i--) 
+for (i = 'z' ; i >= 'a' ; i--)
 {
-      putchar(i);
-} 
+putchar(i);
+}
 putchar(hehe);
 return (0);
 }
