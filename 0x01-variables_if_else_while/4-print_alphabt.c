@@ -9,20 +9,20 @@
 * Return: Always 0 (Success)
 */
 
-int main(void) 
+int main(void)
 {
 char ch;
 char hehe = '\n';
-for (ch = 'a' ; ch <= 'z' ; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-      if (ch == 'e')
-      {
+if (ch == 'e')
+{
+	continue;
+}
+if (ch == 'q')
+{
       	continue;
-      }
-      if (ch == 'q')
-      {
-      	continue;
-      }
+}
       putchar(ch);
 }
 putchar(hehe);
