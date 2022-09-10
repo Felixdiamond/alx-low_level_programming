@@ -12,10 +12,10 @@
 int main(void)
 {
 char i;
-char hehe;
-for (i = 'a' ; i <= 'z' ; i++) 
+char hehe = '\n';
+for (i = 'z' ; i <= 'a' ; i--) 
 {
-      strrev(putchar(i));
+      putchar(ch);
 } 
 putchar(hehe);
 return (0);
