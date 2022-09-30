@@ -4,12 +4,12 @@
  * main - Prints the name of the program
  * @argc: Number of command line arguments
  * @argv: Array name
- * exit: EXIT_SUCCESS
+ * Return: 0
  */
 
-int main (int argc, char *[argv])
+int main (int argc, char *argv[])
 {
 	printf("%s \n", argv[0]);
 	
-	exit(EXIT_SUCCESS);
+	return 0;
 }
