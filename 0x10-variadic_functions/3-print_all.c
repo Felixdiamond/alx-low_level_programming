@@ -1,5 +1,6 @@
 /**
  * File: 3-print_all.c
+ * Auth: Kefuoe Sole
  * @arg: A list of arguments pointing to
  */
 #include "variadic_functions.h"
