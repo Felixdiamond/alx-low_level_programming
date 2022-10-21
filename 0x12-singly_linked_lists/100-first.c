@@ -1,6 +1,6 @@
 /*
  * File: 100-first.c
- * 
+ *
  */
 #include <stdio.h>
 void __attribute__((constructor)) hare(void);
